@@ -12,9 +12,16 @@
 		2F4CA6CF1EB1E52D00A73819 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F4CA6CD1EB1E52D00A73819 /* Main.storyboard */; };
 		2F4CA6D11EB1E52D00A73819 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F4CA6D01EB1E52D00A73819 /* Assets.xcassets */; };
 		2F4CA6D41EB1E52D00A73819 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F4CA6D21EB1E52D00A73819 /* LaunchScreen.storyboard */; };
+		2F4CA6DC1EB1E6BD00A73819 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4CA6DB1EB1E6BD00A73819 /* MyTableViewCell.swift */; };
+		2F4CA6DE1EB1E73800A73819 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4CA6DD1EB1E73800A73819 /* ProfileViewController.swift */; };
+		2F4CA6E01EB350F200A73819 /* marshmallow.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F4CA6DF1EB350F200A73819 /* marshmallow.png */; };
+		2F4CA6E21EB356D900A73819 /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F4CA6E11EB356D900A73819 /* images.png */; };
+		2F4CA6E61EB3808C00A73819 /* 58-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F4CA6E51EB3808C00A73819 /* 58-512.png */; };
+		5A21B730C1AA2EA1876B1B00 /* Pods_PeopleSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF968F80C2ECC0348C5F9AE /* Pods_PeopleSearch.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F44818A96AD61FC78B66BB1 /* Pods-PeopleSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeopleSearch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PeopleSearch/Pods-PeopleSearch.debug.xcconfig"; sourceTree = "<group>"; };
 		2F4CA6C61EB1E52D00A73819 /* PeopleSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeopleSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F4CA6C91EB1E52D00A73819 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F4CA6CB1EB1E52D00A73819 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,13 @@
 		2F4CA6D01EB1E52D00A73819 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F4CA6D31EB1E52D00A73819 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F4CA6D51EB1E52D00A73819 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F4CA6DB1EB1E6BD00A73819 /* MyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		2F4CA6DD1EB1E73800A73819 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		2F4CA6DF1EB350F200A73819 /* marshmallow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marshmallow.png; sourceTree = "<group>"; };
+		2F4CA6E11EB356D900A73819 /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images.png; sourceTree = "<group>"; };
+		2F4CA6E51EB3808C00A73819 /* 58-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "58-512.png"; sourceTree = "<group>"; };
+		49750019CBD4886E3EACA2C9 /* Pods-PeopleSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeopleSearch.release.xcconfig"; path = "Pods/Target Support Files/Pods-PeopleSearch/Pods-PeopleSearch.release.xcconfig"; sourceTree = "<group>"; };
+		DBF968F80C2ECC0348C5F9AE /* Pods_PeopleSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PeopleSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A21B730C1AA2EA1876B1B00 /* Pods_PeopleSearch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +55,8 @@
 			children = (
 				2F4CA6C81EB1E52D00A73819 /* PeopleSearch */,
 				2F4CA6C71EB1E52D00A73819 /* Products */,
+				B7045EABC83BC46C693549FD /* Pods */,
+				551A9D0401F382B0DB9A7D43 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,11 +74,33 @@
 				2F4CA6C91EB1E52D00A73819 /* AppDelegate.swift */,
 				2F4CA6CB1EB1E52D00A73819 /* ViewController.swift */,
 				2F4CA6CD1EB1E52D00A73819 /* Main.storyboard */,
+				2F4CA6DD1EB1E73800A73819 /* ProfileViewController.swift */,
+				2F4CA6DB1EB1E6BD00A73819 /* MyTableViewCell.swift */,
 				2F4CA6D01EB1E52D00A73819 /* Assets.xcassets */,
 				2F4CA6D21EB1E52D00A73819 /* LaunchScreen.storyboard */,
+				2F4CA6E11EB356D900A73819 /* images.png */,
+				2F4CA6E51EB3808C00A73819 /* 58-512.png */,
+				2F4CA6DF1EB350F200A73819 /* marshmallow.png */,
 				2F4CA6D51EB1E52D00A73819 /* Info.plist */,
 			);
 			path = PeopleSearch;
+			sourceTree = "<group>";
+		};
+		551A9D0401F382B0DB9A7D43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBF968F80C2ECC0348C5F9AE /* Pods_PeopleSearch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7045EABC83BC46C693549FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F44818A96AD61FC78B66BB1 /* Pods-PeopleSearch.debug.xcconfig */,
+				49750019CBD4886E3EACA2C9 /* Pods-PeopleSearch.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F4CA6D81EB1E52D00A73819 /* Build configuration list for PBXNativeTarget "PeopleSearch" */;
 			buildPhases = (
+				7E376C31293B5DB23AF3D621 /* [CP] Check Pods Manifest.lock */,
 				2F4CA6C21EB1E52D00A73819 /* Sources */,
 				2F4CA6C31EB1E52D00A73819 /* Frameworks */,
 				2F4CA6C41EB1E52D00A73819 /* Resources */,
+				590CA167A34A1FED865BD5D8 /* [CP] Embed Pods Frameworks */,
+				4875D7301B51932FB5098F7B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,12 +166,63 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F4CA6D41EB1E52D00A73819 /* LaunchScreen.storyboard in Resources */,
+				2F4CA6E21EB356D900A73819 /* images.png in Resources */,
+				2F4CA6E01EB350F200A73819 /* marshmallow.png in Resources */,
+				2F4CA6E61EB3808C00A73819 /* 58-512.png in Resources */,
 				2F4CA6D11EB1E52D00A73819 /* Assets.xcassets in Resources */,
 				2F4CA6CF1EB1E52D00A73819 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4875D7301B51932FB5098F7B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PeopleSearch/Pods-PeopleSearch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		590CA167A34A1FED865BD5D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PeopleSearch/Pods-PeopleSearch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E376C31293B5DB23AF3D621 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2F4CA6C21EB1E52D00A73819 /* Sources */ = {
@@ -138,6 +231,8 @@
 			files = (
 				2F4CA6CC1EB1E52D00A73819 /* ViewController.swift in Sources */,
 				2F4CA6CA1EB1E52D00A73819 /* AppDelegate.swift in Sources */,
+				2F4CA6DE1EB1E73800A73819 /* ProfileViewController.swift in Sources */,
+				2F4CA6DC1EB1E6BD00A73819 /* MyTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +353,7 @@
 		};
 		2F4CA6D91EB1E52D00A73819 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F44818A96AD61FC78B66BB1 /* Pods-PeopleSearch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PeopleSearch/Info.plist;
@@ -270,6 +366,7 @@
 		};
 		2F4CA6DA1EB1E52D00A73819 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49750019CBD4886E3EACA2C9 /* Pods-PeopleSearch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PeopleSearch/Info.plist;
@@ -299,6 +396,7 @@
 				2F4CA6DA1EB1E52D00A73819 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
